@@ -8,3 +8,5 @@ vitest.config.ts
 pnpm-lock.yaml
 .git/
 .github/
+.npmrc
+.gitignore

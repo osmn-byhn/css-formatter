@@ -1,6 +1,6 @@
 // src/index.ts
 import fetch2 from "node-fetch";
-import render from "dom-serializer";
+import { render } from "dom-serializer";
 
 // src/html/parser.ts
 import { parseDocument } from "htmlparser2";

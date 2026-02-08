@@ -1,6 +1,6 @@
 // src/index.ts
 import fetch from "node-fetch";
-import render from "dom-serializer";
+import { render } from "dom-serializer";
 import type { Document } from "domhandler";
 import { parseHTML } from "./html/parser.js";
 import { extractCSS } from "./css/parser.js";

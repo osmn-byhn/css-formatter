@@ -38,7 +38,7 @@ __export(index_exports, {
 });
 module.exports = __toCommonJS(index_exports);
 var import_node_fetch2 = __toESM(require("node-fetch"), 1);
-var import_dom_serializer = __toESM(require("dom-serializer"), 1);
+var import_dom_serializer = require("dom-serializer");
 
 // src/html/parser.ts
 var import_htmlparser2 = require("htmlparser2");
@@ -367,7 +367,7 @@ async function reverseCSSExternal(input) {
   };
 }
 function domToHTML(dom) {
-  let html = (0, import_dom_serializer.default)(dom);
+  let html = (0, import_dom_serializer.render)(dom);
   html = html.replace(/(<style[^>]*>)([\s\S]*?)(<\/style>)/gi, (match, open, content, close) => {
     const unescaped = content.replace(/&apos;/g, "'").replace(/&quot;/g, '"').replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">");
     return open + unescaped + close;

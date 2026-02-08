@@ -1,5 +1,5 @@
 {
-  "name": "css-formatter",
+  "name": "@osmn-byhn/css-formatter",
   "version": "1.0.0",
   "type": "module",
   "description": "Format CSS with smart selectors",

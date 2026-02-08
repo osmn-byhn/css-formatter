@@ -4,8 +4,8 @@
 
 Convert between CSS and inline styles effortlessly. Perfect for email templates, production optimization, and development workflows.
 
-[![npm version](https://img.shields.io/npm/v/css-inliner.svg)](https://www.npmjs.com/package/css-inliner)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://img.shields.io/npm/v/@osmn-byhn/css-formatter.svg)](https://www.npmjs.com/package/@osmn-byhn/css-formatter)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## 🚀 Features
 
@@ -266,7 +266,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
-MIT © [Osman Beyhan]
+MIT © [Osman Beyhan](LICENSE)
 
 ## 🙏 Acknowledgments
 

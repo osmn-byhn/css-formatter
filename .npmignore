@@ -1,0 +1,10 @@
+# .npmignore - files to exclude from npm package
+test/
+.gemini/
+*.test.ts
+fix-imports.sh
+tsconfig.json
+vitest.config.ts
+pnpm-lock.yaml
+.git/
+.github/
